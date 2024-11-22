@@ -2,8 +2,8 @@
 
 
 
-$description = "Description de la page d'accueil";
-$title = "Titre de la page";
+$description = "Tripto les meilleures journées d'excursion en France.";
+$title = "Tripto";
 ob_start() ?>
 
 <section>
