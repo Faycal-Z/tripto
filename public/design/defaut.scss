@@ -1,0 +1,25 @@
+
+
+$theme-colors: (
+    'primary': #FCF8E8,
+    'secondary': #3A6351,
+    'tertiary': #393232,
+    'quaternary': #E48257
+);
+
+
+@import "../../vendor/node_modules/bootstrap/scss/bootstrap";
+
+.nav-link{
+
+    color:map-get($theme-colors, 'tertiary');
+    &:hover{
+        color:map-get($theme-colors, 'secondary');
+    }
+}
+
+
+
+
+
+
